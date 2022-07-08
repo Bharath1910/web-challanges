@@ -1,0 +1,138 @@
+body {
+    display: flex;
+    background-color: #23252C;
+}
+
+.card {
+    width: 50%;
+    height: 90vh;
+    background-color: #1A1B21;
+    margin: 10px 50px;
+
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.card_light {
+    width: 50%;
+    height: 90vh;
+    background-color: #F5F5F5;
+    margin: 10px 50px;
+
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.card_light .socials {
+    background-color: #D5D4D8;
+    padding: 10px 15px;
+    font-size: 35px;
+
+    display: flex;    color: #918E9B;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.card_light .socials a {
+    color: #918E9B;;
+}
+
+
+
+button {
+    border-radius: 6px;
+    background-color: #D1D5DB;
+    color: #1E1F26;
+    border: none;
+    padding: 5px;
+}
+.linkedin {
+    background-color: #5093E2;
+    color: #fff;
+}
+.buttons {
+    display: flex;
+    padding: 0 25px;
+
+}
+
+.buttons > * {
+    width: 100%;
+    margin: 0 10px;
+}
+
+.socials {
+    background-color: #161619;
+    padding: 10px 15px;
+    font-size: 35px;
+
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.socials a {
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+}
+
+.title, .about {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+}
+
+.title p {
+    color: #F3BF99;
+    text-align: center;
+    margin-top: -15px;
+    font-size: 12px !important;
+}
+
+.title a {
+    color: #F5F5F5;
+    text-decoration: none;
+
+    font-size: 10px;
+    text-align: center;
+    margin-top: -10px;
+}
+
+
+h2 {
+    font-size: 25px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 10px;
+    margin-top: -10px;
+}
+
+.card > * {
+    color: aliceblue;
+}
+
+.card_light > * {
+    color: #2B283A;
+}
+
+
+img { 
+    border-radius: 10px 10px 0 0;
+    width: 300px;
+}
+
+.light {
+    color: #161619 !important;  
+}
