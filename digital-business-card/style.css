@@ -15,19 +15,24 @@ body {
     justify-content: space-between;
 }
 
-.card_light {
-    width: 50%;
-    height: 90vh;
-    background-color: #F5F5F5;
-    margin: 10px 50px;
-
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px;
-    justify-content: space-between;
+.dark {
+    background-color: #1A1B21;
 }
 
-.card_light .socials {
+.light {
+    background-color: #F5F5F5;
+    color: #161619;
+}
+
+.dark > * {
+    color: aliceblue;
+}
+
+.light > * {
+    color: #2B283A;
+}
+
+.light .socials {
     background-color: #D5D4D8;
     padding: 10px 15px;
     font-size: 35px;
@@ -37,10 +42,9 @@ body {
     justify-content: space-between;
 }
 
-.card_light .socials a {
+.light .socials a {
     color: #918E9B;;
 }
-
 
 
 button {
@@ -104,6 +108,10 @@ button {
     margin-top: -10px;
 }
 
+.light .title a {
+    color: #161619;
+}
+
 
 h2 {
     font-size: 25px;
@@ -119,20 +127,7 @@ p {
     margin-top: -10px;
 }
 
-.card > * {
-    color: aliceblue;
-}
-
-.card_light > * {
-    color: #2B283A;
-}
-
-
 img { 
     border-radius: 10px 10px 0 0;
     width: 300px;
-}
-
-.light {
-    color: #161619 !important;  
 }
